@@ -10,7 +10,7 @@ assets:
   repository:
     type: blob.asset
     data:
-      url: 'https://github.com/balena-io-experimental/balena-sound'
+      url: 'https://github.com/Al3nMicL/balena-sound/tree/rpi-3a'
   logo:
     type: blob.asset
     data:
@@ -20,7 +20,7 @@ data:
   applicationEnvironmentVariables:
     - SOUND_VOLUME: 75
     - AUDIO_OUTPUT: AUTO
-  defaultDeviceType: raspberry-pi
+  defaultDeviceType: raspberrypi3
   supportedDeviceTypes:
     - raspberry-pi
     - raspberry-pi2
